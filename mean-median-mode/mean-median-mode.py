@@ -8,7 +8,6 @@ def mean_median_mode(x):
     # Write code here
     mean=np.mean(x)
     median=np.median(x)
-    d={}
     d = {}
     for i in x:
         if i in d:
